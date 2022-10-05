@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#ff00FF00"
+>
+	<EditText 
+		android:id="@+id/text1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_above="@+id/textView1" 
+		android:layout_alignParentLeft="true" 
+		android:layout_marginBottom="18dp" 
+		android:layout_toLeftOf="@+id/button1" 
+		android:ems="10" 
+		android:hint="numero"
+		android:background="#ff00ff00"
+		android:textColor="#ff000000"
+	> 
+		<requestFocus /> 
+	</EditText> 
+	<EditText 
+		android:id="@+id/text2" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_above="@+id/textView1" 
+		android:layout_alignParentLeft="true" 
+		android:layout_marginBottom="18dp" 
+		android:layout_toLeftOf="@+id/button1" 
+		android:ems="10" 
+		android:hint="numero"
+		
+		android:background="#ff00ff00"
+		android:textColor="#ff000000"
+	> 
+
+	</EditText> 
+
+	<Button 
+		android:id="@+id/button1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_alignBaseline="@+id/editText1" 
+		android:layout_alignBottom="@+id/Text1" 
+		android:layout_alignParentRight="true" 
+		android:text="="
+		
+		android:background="#ff00ff00"
+		android:textColor="#ff000000"
+		/>
+	<TextView 
+		android:id="@+id/tv1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="0" 
+
+		android:background="#ff00ff00"
+		android:textColor="#ff000000"
+		
+		
+	/> 
+
+</LinearLayout>
+
